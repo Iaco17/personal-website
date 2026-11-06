@@ -1,0 +1,39 @@
+/* 404 "Off route": the trail goes on, then wanders off the map */
+.lost {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding-block: 64px;
+}
+.lost .chapter-label { width: 100%; margin-bottom: 0; }
+.lost-trail { width: min(100%, 420px); height: auto; overflow: visible; }
+.lost-path { fill: none; stroke: var(--accent); stroke-width: 3; stroke-linecap: round; }
+.lost-off { fill: none; stroke: #5b6b80; stroke-width: 2; stroke-dasharray: 4 6; stroke-linecap: round; }
+.lost-start { fill: #fff; }
+.lost-pin circle { fill: var(--accent); }
+.lost-pin .lost-halo {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: mapPulse 1.8s ease-out infinite;
+}
+.lost-title {
+  max-width: 14ch;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(3rem, 14vw, 7rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+.lost-text { max-width: 36ch; font-size: 1.125rem; color: #d5d9df; }
+.lost .btn { margin-top: 8px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .lost-pin .lost-halo { animation: none; }
+}
