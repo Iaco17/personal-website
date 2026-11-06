@@ -1,0 +1,23 @@
+# Dependencies & build output
+node_modules
+dist
+
+# Original, full-size photos (only the optimised WebP versions in public/photos are published)
+photos-raw/
+
+# Raw map data (~15 MB of GeoJSON) — see README to regenerate the map
+map-data/
+
+# Local tool state
+.netlify
+.claude/
+CLAUDE.md
+
+# Env & logs
+.env*
+*.log
+
+# OS / OneDrive junk
+.DS_Store
+Thumbs.db
+desktop.ini

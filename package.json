@@ -1,0 +1,25 @@
+{
+  "name": "iaco-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/big-shoulders-display": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "gsap": "^3.15.1",
+    "lenis": "^1.3.27"
+  },
+  "devDependencies": {
+    "d3-geo": "^3.1.2",
+    "netlify-cli": "^27.16.2",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.6"
+  }
+}
