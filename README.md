@@ -36,6 +36,8 @@ Map generation: `d3-geo` · Image processing: `sharp`
 I wrote a brief first — who visits the site, the hard rules (mobile-first, fast, never invent facts) and the vibe: *"it has to tell my story and follow my energy."*
 Then I built it chapter by chapter with **Claude Code**: Claude proposed the structure, I picked the signature interactions, the look and the photos, and we checked every section at phone width before moving on.
 
+Certified by Anthropic in **AI Fluency**, **Claude Code 101** and **Introduction to Model Context Protocol** (2026).
+
 ## Run it locally
 
 ```bash
